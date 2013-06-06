@@ -1,0 +1,45 @@
+ro:
+  numbers:
+    ones: 
+        default: [zero, unu, doi, trei, patru, cinci, sase, sapte, opt, noua]
+        combine: [zero, unu, doi, trei, patru, cinci, sase, sapte, opt, noua]
+        gender: [zero, una, doua, trei, patru, cinci, sase, sapte, opt, noua]
+    teens: [zece, unsprezece, douasprezece, treisprezece, paisprezece, cinsprezece, saisprezece, saptesprezece, optsprezece, nouasprezece]
+    tens: [zero, zece, douazeci, treizeci, patruzeci, cinzeci, saizeci, saptezeci, optzeci, nouazeci]
+    mega: [ones, thousands, millions, billions, trillions, quadrillions, quintillion, sextillions, septillions, octillions, nonillions, decillions]
+    hundreds:
+      one: suta
+      many: sute
+    thousands:
+      one: mie
+      many: mii
+    millions:
+      one: milion
+      many: milioane
+    billions:
+      one: miliard
+      many: miliarde
+    trillions:
+      one: trilion
+      many: trilioane
+    quadrillions:
+      one: quadrilion
+      many: quadrilioane
+    quintillions:
+      one: trilion
+      many: trilioane
+    sextillions:
+      one: sextilion
+      many: sextilioane
+    septillions:
+      one: septilion
+      many: septilioane
+    octillions:
+      one: octilion
+      many: octilioane
+    nonillions:
+      one: nonilion
+      many: nonilioane
+    decillions:
+      one: decilion
+      many: decilioane

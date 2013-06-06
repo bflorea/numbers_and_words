@@ -16,6 +16,7 @@ require 'numbers_and_words/translations/se'
 require 'numbers_and_words/translations/es'
 require 'numbers_and_words/translations/lv'
 require 'numbers_and_words/translations/de'
+require 'numbers_and_words/translations/ro'
 
 module NumbersAndWords
   module Translations
