@@ -5,31 +5,42 @@ module NumbersAndWords
         class Ro < Base
           include Families::Latin
 
-          private
-
-          def capacity_iteration
-            words = []
-            capacity_words = words_in_capacity(@current_capacity)
-            words.push(megs) unless capacity_words.empty?
-            words += capacity_words unless is_a_thousand? and is_a_one?
-            words
+          def ones
+            super({:gender => gender})
           end
-
-          def is_a_one?
-            [translations.ones(1)] == words_in_capacity(@current_capacity)
-          end
-
-          def is_a_thousand?
-            FiguresArray::THOUSAND_CAPACITY == @current_capacity
-          end
-
+	  
+	  def tens_with_ones
+	      super({:gender => gender})
+	  end
+	  
           def hundreds
-            super({:pluralize => simple_number_to_words.empty?})
+            super({:gender => gender})
           end
-
+	  
           def megs
-            super({:number => @figures.number_in_capacity(@current_capacity)})
+            super({:number => @figures.number_in_capacity(@current_capacity), :gender => gender})
           end
+	  
+	    def gender
+		pp @current_capacity
+		@current_capacity ||= 0
+
+		case @current_capacity
+		when 0
+		    options.gender.result
+		when 1
+		    :female
+		when 2
+		    :female
+		when 3
+		    :female
+		else
+		    :neuter
+		end
+	    end
+	  
+#           private
+
         end
       end
     end

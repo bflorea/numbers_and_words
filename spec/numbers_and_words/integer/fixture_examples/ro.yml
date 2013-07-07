@@ -1,0 +1,51 @@
+to_words:
+  ones:
+    0: zero
+    1: unu
+    9: noua
+  teens:
+    10: zece
+    11: unsprezece
+    19: nouasprezece
+    20: douazeci
+    21: douazeci si unu
+    80: optzeci
+    90: nouazeci
+    99: nouazeci si noua
+  hundreds:
+    100: una suta
+    101: una suta unu
+    111: una suta unsprezece
+    120: una suta douazeci
+    121: una suta douazeci si unu
+    900: noua sute
+    909: noua sute noua
+    919: noua sute nouasprezece
+    990: noua sute nouazeci
+    999: noua sute nouazeci si noua
+  thousands:
+    1000: una mie
+    2000: doua mii
+    4000: patru mii
+    5000: cinci mii
+    11000: unsprezece mii
+    21000: douazeci si unu mii
+    999000: noua sute nouazeci si noua mii
+    999999: noua sute nouazeci si noua mii noua sute nouazeci si noua
+  millions:
+    1000000: un milion
+    2000000: doua milioane
+    4000000: patru milioane
+    5000000: cinci milioane
+    999000000: noua sute nouazeci si noua milioane
+    999000999: noua sute nouazeci si noua milioane noua sute nouazeci si noua
+    999999000: noua sute nouazeci si noua milioane noua sute nouazeci si noua mii
+    999999999: noua sute nouazeci si noua milioane noua sute nouazeci si noua mii noua sute nouazeci si noua
+  billions:
+    1174315110: un miliard una suta saptezeci si patru milioane trei sute cinsprezece mii una suta zece 
+    1174315119: un miliard una suta saptezeci si patru milioane trei sute cinsprezece mii una suta nouasprezece
+    15174315119: cinsprezece miliarde una suta saptezeci si patru milioane trei sute cinsprezece mii una suta nouasprezece
+    35174315119: treizeci si cinci miliarde una suta saptezeci si patru milioane trei sute cinsprezece mii una suta nouasprezece
+    935174315119: noua sute treizeci si cinci miliarde una suta saptezeci si patru milioane trei sute cinsprezece mii una suta nouasprezece
+  trillions:
+    2935174315119: doua trilioane noua sute treizeci si cinci miliarde una suta saptezeci si patru milioane trei sute cinsprezece mii una suta nouasprezece

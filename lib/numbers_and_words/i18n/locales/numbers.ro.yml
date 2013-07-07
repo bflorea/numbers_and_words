@@ -1,9 +1,9 @@
 ro:
   numbers:
     ones: 
-        default: [zero, unu, doi, trei, patru, cinci, sase, sapte, opt, noua]
-        combine: [zero, unu, doi, trei, patru, cinci, sase, sapte, opt, noua]
-        gender: [zero, una, doua, trei, patru, cinci, sase, sapte, opt, noua]
+        male: [zero, unu, doi, trei, patru, cinci, sase, sapte, opt, noua]
+        neuter: [zero, unu, doua, trei, patru, cinci, sase, sapte, opt, noua]
+        female: [zero, una, doua, trei, patru, cinci, sase, sapte, opt, noua]
     teens: [zece, unsprezece, douasprezece, treisprezece, paisprezece, cinsprezece, saisprezece, saptesprezece, optsprezece, nouasprezece]
     tens: [zero, zece, douazeci, treizeci, patruzeci, cinzeci, saizeci, saptezeci, optzeci, nouazeci]
     mega: [ones, thousands, millions, billions, trillions, quadrillions, quintillion, sextillions, septillions, octillions, nonillions, decillions]
